@@ -127,3 +127,844 @@
     filter: invert(1);
   }
 }
+
+.container {
+  padding: 0 2rem;
+}
+
+.footer {
+  display: flex;
+}
+
+.blank {
+  display: block;
+  /* background-image: url("../images/footer.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 520px;
+  height: 145px;
+  position: absolute;
+  left: 200px;
+  top: 600px;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  display: flex;
+  background-image: url("../images/icon.png");
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  margin-left: 85px;
+}
+
+.homepage {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 900px;
+  height: 600px;
+  transform: scale(1);
+  /* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+  /* box-shadow: 10px 10px rgb(152, 20, 156); */
+  /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+}
+
+.homepageImg {
+  display: block;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 608px;
+  height: 500px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px,
+    rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+  /* box-shadow: 10px 10px rgb(152, 20, 156); */
+}
+
+.banner {
+  display: block;
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+  background-image: url("../images/using_mina.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 420px;
+  height: 280px;
+  position: absolute;
+  left: 250px;
+  top: 90px;
+}
+
+.banner2 {
+  display: block;
+  background-image: url("../images/mina_logo.svg");
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 70px;
+  position: absolute;
+  left: 335px;
+  top: 310px;
+}
+
+.connectBtn {
+  display: block;
+  outline: none;
+  border: 3px solid white;
+  box-shadow: 0px 0px 0px 1px rgb(90, 90, 90),
+    inset 0px 0px 0px 1px rgb(90, 90, 90), 0px 2px 0px 2px rgb(100, 100, 100);
+  text-shadow: 0px -1px rgb(90, 90, 90), -1px 0px rgb(90, 90, 90);
+  border-radius: 0.3em;
+  color: white;
+  background-color: rgb(90, 90, 90);
+  background-color: rgb(134, 0, 101);
+  box-shadow: 0px 0px 0px 1px rgb(134, 0, 101),
+    inset 0px 0px 0px 1px rgb(134, 0, 101), 0px 2px 0px 2px rgb(175, 0, 131);
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-shadow: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 380px;
+  top: 450px;
+}
+
+.connectBtn:hover {
+  display: block;
+  background-color: rgb(75, 75, 75);
+  background-color: rgb(170, 0, 128);
+  box-shadow: 0px 0px 0px 1px rgb(170, 0, 128),
+    inset 0px 0px 0px 1px rgb(170, 0, 128), 0px 1px 0px 2px rgb(170, 0, 128);
+  box-shadow: 0px 0px 0px 1px rgb(90, 90, 90),
+    inset 0px 0px 0px 1px rgb(90, 90, 90), 0px 1px 0px 2px rgb(100, 100, 100);
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 380px;
+  top: 450px;
+}
+
+.connectBtn:active {
+  display: block;
+  /* background-image: url("../images/connectBtn3.png"); */
+  background-color: rgb(75, 75, 75);
+  background-color: rgb(75, 75, 75);
+  box-shadow: 0px 0px 0px 1px rgb(75, 75, 75),
+    inset 0px 0px 0px 1px rgb(75, 75, 75), 0px 1px 0px 2px rgb(75, 75, 75);
+  box-shadow: 0px 0px 0px 1px rgb(90, 90, 90),
+    inset 0px 0px 0px 1px rgb(90, 90, 90), 0px 1px 0px 2px rgb(100, 100, 100);
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 380px;
+  top: 450px;
+}
+
+.loadingBtn {
+  display: block;
+  outline: none;
+  background-size: 5%;
+  background-position: center;
+  background-image: url("../images/loadingbtn.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid white;
+  box-shadow: 0px 0px 0px 1px rgb(90, 90, 90),
+    inset 0px 0px 0px 1px rgb(90, 90, 90), 0px 2px 0px 2px rgb(100, 100, 100);
+  text-shadow: 0px -1px rgb(90, 90, 90), -1px 0px rgb(90, 90, 90);
+  border-radius: 0.3em;
+  color: white;
+  background-color: rgb(90, 90, 90);
+  background-color: rgb(75, 135, 71);
+  box-shadow: 0px 0px 0px 1px rgb(75, 135, 71),
+    inset 0px 0px 0px 1px rgb(75, 135, 71), 0px 2px 0px 2px rgb(85, 134, 82);
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-shadow: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 380px;
+  top: 450px;
+}
+
+.loading {
+  display: block;
+  background-image: url("../images/loading.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 305px;
+  top: 50px;
+}
+
+.getLoading {
+  display: block;
+  background-image: url("../images/getLoading.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  left: 315px;
+  top: 150px;
+}
+
+.sendLoading {
+  display: block;
+  background-image: url("../images/getLoading.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 330px;
+  top: 110px;
+}
+
+.sendCheck {
+  display: block;
+  background-image: url("../images/sent.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 43px;
+  height: 35px;
+  position: absolute;
+  left: 295px;
+  top: 325px;
+}
+
+.sendDone {
+  display: block;
+  background-image: url("../images/sent.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 210px;
+  position: absolute;
+  left: 330px;
+  top: 100px;
+}
+
+.caution {
+  display: block;
+  background-image: url("../images/cautionsvg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 155px;
+  position: absolute;
+  left: 370px;
+  top: 120px;
+}
+
+.succes {
+  display: block;
+  background-image: url("../images/connected.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  left: 370px;
+  top: 120px;
+}
+
+.statusTxt {
+  display: block;
+  position: absolute;
+  left: 360px;
+  top: 300px;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px;
+}
+
+.statusSendTxt {
+  display: block;
+  position: absolute;
+  left: 340px;
+  top: 320px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.walletLink {
+  display: block;
+  position: absolute;
+  left: 390px;
+  top: 370px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.walletTxt {
+  display: block;
+  position: absolute;
+  left: 210px;
+  top: 350px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.faucetTxt {
+  display: block;
+  position: absolute;
+  left: 215px;
+  top: 350px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.faucetHere {
+  display: block;
+  position: absolute;
+  left: 390px;
+  top: 370px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.backNoAccount {
+  display: block;
+  background-image: url("../images/back-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 52px;
+  position: absolute;
+  left: 215px;
+  top: 110px;
+}
+
+.backNoAccount:hover {
+  display: block;
+  background-image: url("../images/back-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48px;
+  height: 50px;
+  position: absolute;
+  left: 215px;
+  top: 110px;
+}
+
+.backNoWallet {
+  display: block;
+  background-image: url("../images/back-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 52px;
+  position: absolute;
+  left: 215px;
+  top: 110px;
+}
+
+.backNoWallet:hover {
+  display: block;
+  background-image: url("../images/back-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48px;
+  height: 50px;
+  position: absolute;
+  left: 215px;
+  top: 110px;
+}
+
+.sendBtn {
+  display: block;
+  outline: none;
+  border: 3px solid white;
+  box-shadow: 0px 0px 0px 1px rgb(90, 90, 90),
+    inset 0px 0px 0px 1px rgb(90, 90, 90), 0px 2px 0px 2px rgb(100, 100, 100);
+  text-shadow: 0px -1px rgb(90, 90, 90), -1px 0px rgb(90, 90, 90);
+  border-radius: 0.3em;
+  color: white;
+  background-color: rgb(90, 90, 90);
+  background-color: rgb(134, 0, 101);
+  box-shadow: 0px 0px 0px 1px rgb(134, 0, 101),
+    inset 0px 0px 0px 1px rgb(134, 0, 101), 0px 2px 0px 2px rgb(175, 0, 131);
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-shadow: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 220px;
+  top: 400px;
+}
+
+.sendBtn:hover {
+  display: block;
+  background-color: rgb(75, 75, 75);
+  background-color: rgb(170, 0, 128);
+  box-shadow: 0px 0px 0px 1px rgb(170, 0, 128),
+    inset 0px 0px 0px 1px rgb(170, 0, 128), 0px 1px 0px 2px rgb(170, 0, 128);
+  box-shadow: 0px 0px 0px 1px rgb(90, 90, 90),
+    inset 0px 0px 0px 1px rgb(90, 90, 90), 0px 1px 0px 2px rgb(100, 100, 100);
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 220px;
+  top: 400px;
+}
+
+.sendBtn:active {
+  display: block;
+  /* background-image: url("../images/connectBtn3.png"); */
+  background-color: rgb(75, 75, 75);
+  background-color: rgb(75, 75, 75);
+  box-shadow: 0px 0px 0px 1px rgb(75, 75, 75),
+    inset 0px 0px 0px 1px rgb(75, 75, 75), 0px 1px 0px 2px rgb(75, 75, 75);
+  box-shadow: 0px 0px 0px 1px rgb(90, 90, 90),
+    inset 0px 0px 0px 1px rgb(90, 90, 90), 0px 1px 0px 2px rgb(100, 100, 100);
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 220px;
+  top: 400px;
+}
+
+.sendBtnDisable {
+  display: block;
+  /* background-image: url("../images/connectBtn3.png"); */
+  background-color: rgb(75, 75, 75);
+  background-color: rgb(75, 75, 75);
+  box-shadow: 0px 0px 0px 1px rgb(75, 75, 75),
+    inset 0px 0px 0px 1px rgb(75, 75, 75), 0px 1px 0px 2px rgb(75, 75, 75);
+  box-shadow: 0px 0px 0px 1px rgb(90, 90, 90),
+    inset 0px 0px 0px 1px rgb(90, 90, 90), 0px 1px 0px 2px rgb(100, 100, 100);
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-shadow: #000;
+  text-align: center;
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 220px;
+  top: 400px;
+}
+
+.getBtn {
+  display: block;
+  outline: none;
+  border: 3px solid white;
+  box-shadow: 0px 0px 0px 1px rgb(90, 90, 90),
+    inset 0px 0px 0px 1px rgb(90, 90, 90), 0px 2px 0px 2px rgb(100, 100, 100);
+  text-shadow: 0px -1px rgb(90, 90, 90), -1px 0px rgb(90, 90, 90);
+  border-radius: 0.3em;
+  color: white;
+  background-color: rgb(90, 90, 90);
+  background-color: rgb(134, 0, 101);
+  box-shadow: 0px 0px 0px 1px rgb(134, 0, 101),
+    inset 0px 0px 0px 1px rgb(134, 0, 101), 0px 2px 0px 2px rgb(175, 0, 131);
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-shadow: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 510px;
+  top: 400px;
+}
+
+.getBtn:hover {
+  display: block;
+  background-color: rgb(75, 75, 75);
+  background-color: rgb(170, 0, 128);
+  box-shadow: 0px 0px 0px 1px rgb(170, 0, 128),
+    inset 0px 0px 0px 1px rgb(170, 0, 128), 0px 1px 0px 2px rgb(170, 0, 128);
+  box-shadow: 0px 0px 0px 1px rgb(90, 90, 90),
+    inset 0px 0px 0px 1px rgb(90, 90, 90), 0px 1px 0px 2px rgb(100, 100, 100);
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 510px;
+  top: 400px;
+}
+
+.getBtn:active {
+  display: block;
+  /* background-image: url("../images/connectBtn3.png"); */
+  background-color: rgb(75, 75, 75);
+  background-color: rgb(75, 75, 75);
+  box-shadow: 0px 0px 0px 1px rgb(75, 75, 75),
+    inset 0px 0px 0px 1px rgb(75, 75, 75), 0px 1px 0px 2px rgb(75, 75, 75);
+  box-shadow: 0px 0px 0px 1px rgb(90, 90, 90),
+    inset 0px 0px 0px 1px rgb(90, 90, 90), 0px 1px 0px 2px rgb(100, 100, 100);
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 510px;
+  top: 400px;
+}
+
+.getBtnDisable {
+  display: block;
+  /* background-image: url("../images/connectBtn3.png"); */
+  background-color: rgb(75, 75, 75);
+  background-color: rgb(75, 75, 75);
+  box-shadow: 0px 0px 0px 1px rgb(75, 75, 75),
+    inset 0px 0px 0px 1px rgb(75, 75, 75), 0px 1px 0px 2px rgb(75, 75, 75);
+  box-shadow: 0px 0px 0px 1px rgb(90, 90, 90),
+    inset 0px 0px 0px 1px rgb(90, 90, 90), 0px 1px 0px 2px rgb(100, 100, 100);
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-shadow: #000;
+  text-align: center;
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 510px;
+  top: 400px;
+}
+
+.txtState {
+  display: block;
+  position: absolute;
+  left: 330px;
+  top: 210px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.numState {
+  display: block;
+  position: absolute;
+  left: 360px;
+  top: 200px;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.txtAddrs {
+  display: block;
+  position: absolute;
+  left: 285px;
+  top: 350px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.addrs {
+  display: block;
+  position: absolute;
+  left: 220px;
+  top: 350px;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.getscreen {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 900px;
+  height: 600px;
+}
+
+.getscreenBlack {
+  display: block;
+  display: flex;
+  /* background-image: url("../images/black.png"); */
+  background-color: #000;
+  background-size: repeat;
+  opacity: 0.5;
+  width: 99%;
+  height: 110%;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); /* you can change the value also */
+  -webkit-transform-origin: center;
+  transform-origin: center;
+}
+
+.getscreenImg {
+  display: block;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px,
+    rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 380px;
+  height: 280px;
+  position: absolute;
+  left: 260px;
+  top: 150px;
+}
+
+.sendscreen {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 900px;
+  height: 600px;
+}
+
+.sendscreenBlack {
+  display: block;
+  display: flex;
+  /* background-image: url("../images/black.png"); */
+  background-color: #000;
+  background-size: repeat;
+  opacity: 0.5;
+  width: 99%;
+  height: 110%;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); /* you can change the value also */
+  -webkit-transform-origin: center;
+  transform-origin: center;
+}
+
+.sendscreenImg {
+  display: block;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px,
+    rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 330px;
+  position: absolute;
+  left: 250px;
+  top: 100px;
+}
+
+.closeGet {
+  display: block;
+  background-image: url("../images/closesvg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 52px;
+  position: absolute;
+  left: 590px;
+  top: 150px;
+}
+
+.closeGet:hover {
+  display: block;
+  background-image: url("../images/closesvg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48px;
+  height: 50px;
+  position: absolute;
+  left: 590px;
+  top: 150px;
+}
+.shadow-box {
+  box-shadow: 10px 10px blue;
+}
+.closeSend {
+  display: block;
+  background-image: url("../images/closesvg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 52px;
+  position: absolute;
+  left: 600px;
+  top: 120px;
+}
+
+.closeSend:hover {
+  display: block;
+  background-image: url("../images/closesvg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48px;
+  height: 50px;
+  position: absolute;
+  left: 600px;
+  top: 120px;
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  /* .logo img {
+  } */
+}
