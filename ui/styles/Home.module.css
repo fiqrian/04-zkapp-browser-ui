@@ -138,7 +138,6 @@
 
 .blank {
   display: block;
-  /* background-image: url("../images/footer.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   width: 520px;
@@ -246,13 +245,6 @@
   width: 900px;
   height: 600px;
   transform: scale(1);
-  /* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
-    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
-    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
-  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
-  /* box-shadow: 10px 10px rgb(152, 20, 156); */
-  /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
 }
 
 .homepageImg {
@@ -272,13 +264,10 @@
     rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px,
     rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
-  /* box-shadow: 10px 10px rgb(152, 20, 156); */
 }
 
 .banner {
   display: block;
-  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
   background-image: url("../images/using_mina.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -292,7 +281,6 @@
 .banner2 {
   display: block;
   background-image: url("../images/mina_logo.svg");
-  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
   background-repeat: no-repeat;
   background-size: cover;
   width: 250px;
@@ -345,7 +333,6 @@
 
 .connectBtn:active {
   display: block;
-  /* background-image: url("../images/connectBtn3.png"); */
   background-color: rgb(75, 75, 75);
   background-color: rgb(75, 75, 75);
   box-shadow: 0px 0px 0px 1px rgb(75, 75, 75),
@@ -651,7 +638,6 @@
 
 .sendBtnDisable {
   display: block;
-  /* background-image: url("../images/connectBtn3.png"); */
   background-color: rgb(75, 75, 75);
   background-color: rgb(75, 75, 75);
   box-shadow: 0px 0px 0px 1px rgb(75, 75, 75),
@@ -811,7 +797,6 @@
 .getscreenBlack {
   display: block;
   display: flex;
-  /* background-image: url("../images/black.png"); */
   background-color: #000;
   background-size: repeat;
   opacity: 0.5;
@@ -861,7 +846,7 @@
 .sendscreenBlack {
   display: block;
   display: flex;
-  /* background-image: url("../images/black.png"); */
+
   background-color: #000;
   background-size: repeat;
   opacity: 0.5;
@@ -965,6 +950,4 @@
   .code {
     background: #111;
   }
-  /* .logo img {
-  } */
 }

@@ -1,9 +1,7 @@
-import type { AppProps } from "next/app";
 import { FC, useEffect, useState, useRef } from "react";
 // Styles
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/home.module.css";
+import styles from "../styles/Home.module.css";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
@@ -19,7 +17,7 @@ import { PublicKey, PrivateKey, Field } from "snarkyjs";
 
 let transactionFee = 0.1;
 
-const App: FC<AppProps> = ({ Component, pageProps }) => {
+export default function App() {
   let [state, setState] = useState({
     zkappWorkerClient: null as null | ZkappWorkerClient,
     hasWallet: null as null | boolean,
@@ -250,7 +248,6 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
   };
 
   // -------------------------------------------------------
-  // Newwwwww
   const connectBtnclick = () => {
     const el = document.getElementById("loadingBtn")!;
     el.style.display = "block";
@@ -687,7 +684,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
           />
         </Head>
 
-        <div id="homepage .card-2 " className={styles.homepage}>
+        <div id="homepage card-2 " className={styles.homepage}>
           <span className={styles.homepageImg}> </span>
           <Button
             id="connectBtn"
@@ -852,6 +849,4 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
       </div>
     </MainLayout>
   );
-};
-
-export default App;
+}
